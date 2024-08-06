@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(97, 172, 153);
+  align-items: center;
+  justify-content: center;
+  padding: 8% 0;
+}
+.btn {
+  width: 100px;
+  height: 100px;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  vertical-align: top;
+  margin: 2px;
+}
+h1,h3 {
+  color: white;
+}
+.restart-btn {
+  cursor: pointer;
+  width: 120px;
+  height: 45px;
+  font-size: 1.6rem;
+  margin-top: 10px;
+  background-color: rgb(104, 26, 26);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  display: none;
+}
